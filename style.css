@@ -11,10 +11,17 @@ body {
   align-items: center;
   justify-content: space-evenly;
   row-gap: 25px;
+  background-image: url('./images/background.jpg');
+  color: whitesmoke;
 }
 
 .icon-player {
+  border-radius: 50%;
   cursor: pointer;
+}
+
+.icon {
+  border-radius: 50%;
 }
 
 .icon-player:hover {
@@ -42,4 +49,11 @@ body {
 .score {
   font-size: 30px;
   text-align: center;
+}
+
+.middle {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
 }
